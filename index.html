@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>해외선물 노엘</title>
+  <style>
+
+     body {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            background-color:#141414;
+        }
+       img {
+            width: 100%;
+            vertical-align : top;
+        }
+
+       
+        
+    /* PC 화면에서만 보이도록 스타일링 */
+    .pc-image {
+      display: block;
+    }
+    
+    /* 모바일 화면에서만 보이도록 스타일링 */
+    .mobile-image {
+      display: none;
+    }
+    
+    /* 모바일 화면에 대한 미디어 쿼리 */
+    @media only screen and (max-width: 1000px) {
+      .pc-image {
+        display: none;
+      }
+    
+      .mobile-image {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="https://open.kakao.com/o/sGf1gxWf" target="blank">
+  <img class="pc-image" src="leo pc.png" alt="PC Image">
+  <img class="mobile-image" src="leo mb.png" alt="Mobile Image">
+  </a>
+</body>
+</html>
