@@ -2,23 +2,22 @@
 <html>
 <head>
   <title>해외선물 노엘</title>
+</head>
+<body>
   <style>
-
-     body {
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-            background-color:#141414;
-        }
-       img {
-            width: 100%;
-            vertical-align : top;
-        }
-
-       
-        
+    body {
+          margin: 0px;
+          padding: 0px;
+          position: relative;
+          background-color:#141414;
+      }
+      img {
+          width: 100%;
+          vertical-align : top;
+      }
     /* PC 화면에서만 보이도록 스타일링 */
     .pc-image {
+      width: 100%;
       display: block;
     }
     
@@ -38,11 +37,18 @@
       }
     }
   </style>
-</head>
-<body>
-  <a href="https://open.kakao.com/o/gdoKMqag" target="blank">
-  <img class="pc-image" src="leo pc.png" alt="PC Image">
-  <img class="mobile-image" src="leo mb.png" alt="Mobile Image">
-  </a>
+ <img class="pc-image" src="leo pc.png" usemap="#image-map">
+ <img class="mobile-image" src="leo mb.png" usemap="#image-map-mb">
+
+ <map name="image-map">
+     <area target="_blank" alt="" title="" href="https://open.kakao.com/o/gc9zNqag" coords="1088,290,1463,363" shape="rect">
+     <area target="_blank" alt="" title="" href="https://open.kakao.com/o/sGf1gxWf" coords="970,2983,1537,3073" shape="rect">
+ </map>
+
+ <map id="image-map-mb">
+  <area shape="rect" alt="" title="" coords="412,351,788,425" href="https://open.kakao.com/o/gc9zNqag" target="_blank" />
+  <area shape="rect" alt="" title="" coords="281,3714,912,3817" href="https://open.kakao.com/o/sGf1gxWf" target="_blank" />
+</map>
+
 </body>
 </html>
